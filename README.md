@@ -1,4 +1,4 @@
-# Hex Keypad Encoder – Verilog Implementation
+# Hexa Keypad Encoder – Verilog Implementation
 
 This repository contains a Verilog-based design and testbench for interfacing and encoding signals from a hexadecimal (4x4) matrix keypad. The project includes the main encoder logic, row scanning, and synchronization modules, along with a behavioral testbench and waveform configuration for simulation.
 
@@ -10,7 +10,7 @@ This repository contains a Verilog-based design and testbench for interfacing an
 | `Row_Signal.v`              | Generates row scanning signals for the keypad. |
 | `Synchronizer.v`           | Eliminates metastability from asynchronous keypresses. |
 | `test_Hex_Keypad.v`         | Testbench to verify functional behavior of the keypad encoder. |
-| `test_Hex_Keypad_behav1.wcfg` | Waveform configuration file for simulation (e.g., in ModelSim or Vivado). |
+
 
 ---
 
